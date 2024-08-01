@@ -28,7 +28,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          npm install -g @nestjs/clie
+          npm install -g @nestjs/cli
           npm install
           npm run build
 
